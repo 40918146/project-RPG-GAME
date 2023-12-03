@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="李承翰、馮駿欽、葉芷葳">
+<meta name="generator" content="dreamweaver">
+<meta name="Keywords" content="絕望牢籠,RPG遊戲,恐怖,解謎">
+<title>絕望牢籠</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body background="圖片加影片/12.jpg" >
+
+<div class="head1">	
+	<img src="圖片加影片/title1.png" class="l1" >	
+	<a href="https://drive.google.com/drive/folders/1qgiY1FagWHbIRi50s89ez8mY8j7eCuU2?usp=sharing" target="_blank" alt="遊戲連結">
+		<img src="圖片加影片/圖片1.png" class="l2" title="下載遊戲" >
+	</a>
+</div>
+
+	
+<!--<input type="file">
+<p>下載遊戲</p>-->
+		<!--<a href="">-->
+
+<hr >
+	
+<div class="news">
+<table width="100%" style=";border-style: double;border=1">
+	<tr >
+		<td width="200" align="center"  style="border-right-style:dotted;" ><strong><h1 class="news">公告 </h1></strong>		  </td>
+	  <td style="border: solid 0px; font-size: 24px"><ul>這是專題設計</ul></td>	
+	</tr>	
+</table>
+	
+</div>
+<hr >
+<h1 style="text-align: center; color: #ED0003;FONT-FAMILY:標楷體;" >玩法介紹</h1>
+<div class="w3-content w3-display-container">
+  <video src="圖片加影片/介紹.mp4" width="100%" height="400" class="mySlides" style="width:100% " autoplay="true" controls="true" ></video>
+  <img class="mySlides" src="圖片加影片/1-1.png" width="100%" height="400"style="width:100% ">
+  <img class="mySlides" src="圖片加影片/1-2.png" width="100%" height="400" style="width:100%">
+  <img class="mySlides" src="圖片加影片/1-3.png" width="100%" height="400" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<hr >
+<dl style="color: #ED0003;FONT-FAMILY:標楷體;">
+	<dt><h1 style="text-align: center;FONT-FAMILY:標楷體;">故事介紹</h1></dt>
+	<dd id="t1">你必須在這個荒廢的洋宅中進行探索，找到線索，解開謎題，並且逐漸還原主角的過去。
+	在洋宅中，你會面對各種危險和挑戰，比如說暗藏的陷阱、漆黑的走廊、以及各種名樣的鬼怪和陰影。<br>
+	這些鬼怪和陰影似乎和主角的身世有著密不可分的關係，而它們的出現似乎也暗示著什麼更加恐怖的事情在等待著主角。</dd>
+	<dt><h2 style="text-align: left;FONT-FAMILY:標楷體;">故事內容</h2></dt>
+	<dd id="t1">被廢棄的洋宅裡究竟隱藏著什麼樣的秘密?洋宅裡的鬼怪與主角的身世又有甚麼關聯?與主角一同探索並挖掘真相吧!<br>
+	你將扮演一位失去記憶的主角，為了調查師父所留下的報導，來到這間荒廢的洋宅中，卻意外發現與自己相關的線索。</dd>
+	<dt><h2 style="text-align: left;FONT-FAMILY:標楷體;">主要角色</h2></dt>
+	<table width="100%" border="0" cellspacing="9" cellpadding="3" class="role">
+  <tbody>
+    <tr>
+      <th width="200"><img src="圖片加影片/主角1.png" width="211" height="201" alt=""/></th>
+      <td ><p>無名</p><p>我是誰?</p></td>
+    </tr>
+    <tr>
+      <th width="200"><img src="圖片加影片/Ghost.png" width="211" height="235" alt=""/></th>
+      <td><p>鬼怪</p><p>潛伏在洋宅中的神祕怪物</p></td>
+    </tr>
+    <tr>
+      <th width="200"><img src="圖片加影片/師傅.png" width="211" height="215" alt=""/></th>
+      <td><p>師傅</p><p>收養主角的人</p></td>
+    </tr>
+  </tbody>
+</table>
+
+	
+</dl>
+<footer style="text-align: center;color: #ED0003; background-color: black; height: 25px;width:100%;FONT-FAMILY:標楷體;"  >
+	<p>&copy; 絕望牢籠</p>	
+</footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+H1
+{
+    COLOR: darkblue;
+    FONT-FAMILY: 華康POP1體, 金梅浪漫體, 標楷體, 新細明體;
+    FONT-SIZE: 22pt;
+    FONT-STYLE: normal
+}
+UL
+{
+    LIST-STYLE: url(dotx.gif)
+}
+H2
+{
+    COLOR: blueviolet;
+    FONT-FAMILY: 華康雅宋體, 華康POP1體, 標楷體, 新細明體;
+    FONT-SIZE: 20pt
+}
+H3
+{
+    COLOR: firebrick;
+    FONT-FAMILY: 華康雅宋體, 金梅毛碑楷, 標楷體, 新細明體
+}
